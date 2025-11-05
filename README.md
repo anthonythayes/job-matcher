@@ -4,12 +4,12 @@
 
 A Python-based system that intelligently matches job opportunities to user profiles by parsing resumes, collecting job data from multiple APIs, and applying a multi-factor matching algorithm.
 
-**Goal:** Match users with relevant jobs automatically with 80%+ accuracy.
+**Goal:** Match users with relevant jobs automatically with XX%+ accuracy.
 
 ## Features
 
 - Resume parsing (extracts skills, experience, education)
-- Multi-source job collection (GitHub Jobs API, TheirStack API)
+- Multi-source job collection (Firecrawler, TheirStack API)
 - Intelligent matching algorithm (skills, experience level, location)
 - Interactive Streamlit dashboard for job recommendations
 
@@ -17,7 +17,7 @@ A Python-based system that intelligently matches job opportunities to user profi
 
 - **Backend:** Python, Firecrawler, Perplexity API
 - **Frontend:** Streamlit
-- **Data:** GitHub Jobs API, TheirStack API
+- **Data:** TheirStack API
 - **Version Control:** Git & GitHub
 
 ## Project Status
@@ -28,12 +28,12 @@ A Python-based system that intelligently matches job opportunities to user profi
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.9+
 - Git
 
 ### Installation
 
-git clone <https://github.com/anthonythayes/job-matcher.git>
+git clone https://github.com/anthonythayes/job-matcher.git
 cd job-matcher
 pip install -r requirements.txt
 
@@ -43,11 +43,11 @@ streamlit run app.py
 
 ## Project Timeline
 
-- Weeks 1-2: Data collection (500+ jobs)
-- Weeks 2-3: Resume parser & job parser
-- Weeks 3-4: Matching algorithm design
-- Weeks 4-5: Streamlit dashboard
-- Weeks 5-7: Testing, deployment, documentation
+- Data collection (500+ jobs)
+- Resume parser & job parser
+- Matching algorithm design
+- Streamlit dashboard
+- Testing, deployment, documentation
 
 ## What's Inside
 
@@ -58,8 +58,8 @@ streamlit run app.py
 
 ## Success Metrics
 
-- ✅ 500+ jobs collected
-- ✅ 80%+ match accuracy (manual validation)
+- ✅ XXX+ jobs collected
+- ✅ XX%+ match accuracy (manual validation)
 - ✅ Working Streamlit deployment
 - ✅ Complete documentation
 
@@ -72,7 +72,7 @@ streamlit run app.py
 
 ## Contact
 
-Built by Anthony Hayes - First GitHub project submission
+Built by Anthony Hayes
 
 ## License
 
